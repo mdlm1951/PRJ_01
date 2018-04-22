@@ -9,9 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Mark De La Mater" />
 
-<meta name="date" content="2018-04-20" />
 
 <title>DDP_Map_Test</title>
 
@@ -207,21 +205,19 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">DDP_Map_Test</h1>
-<h4 class="author"><em>Mark De La Mater</em></h4>
-<h4 class="date"><em>April 20, 2018</em></h4>
 
 </div>
 
 
-<pre class="r"><code>library(leaflet)</code></pre>
-<pre><code>## Warning: package &#39;leaflet&#39; was built under R version 3.4.4</code></pre>
-<pre class="r"><code>my_map &lt;- leaflet() %&gt;%
-  addTiles() %&gt;%
-  addMarkers(lat=38.572385, lng=-121.441322, 
-             popup=&quot;Carol and Mark live here&quot;)
-my_map</code></pre>
-<div id="htmlwidget-1d6dfd5bdb5afb6c6041" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1d6dfd5bdb5afb6c6041">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[38.572385,-121.441322,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Carol and Mark live here",null,null,null,null,null,null]}],"limits":{"lat":[38.572385,38.572385],"lng":[-121.441322,-121.441322]}},"evals":[],"jsHooks":[]}</script>
+<div id="mt-everest---the-highest-point-on-earth" class="section level1">
+<h1>Mt Everest - The Highest Point on Earth</h1>
+<div id="map-created-on-april-21-2018-with-leaflet" class="section level2">
+<h2>Map created on April 21, 2018 with Leaflet</h2>
+<pre class="r"><code>my_map</code></pre>
+<div id="htmlwidget-c0f775ae6aa1c2df75bb" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c0f775ae6aa1c2df75bb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[27.9878,86.925,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Mt. Everest - Highest Point on Earth",null,null,null,null,null,null]}],"limits":{"lat":[27.9878,27.9878],"lng":[86.925,86.925]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 

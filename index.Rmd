@@ -1,7 +1,5 @@
 ---
 title: "DDP_Map_Test"
-author: "Mark De La Mater"
-date: "April 20, 2018"
 output: html_document
 ---
 
@@ -9,12 +7,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r Main_Body}
+```{r Main_Body, message = FALSE, warning = FALSE, echo = FALSE}
 library(leaflet)
 my_map <- leaflet() %>%
   addTiles() %>%
-  addMarkers(lat=38.572385, lng=-121.441322, 
-             popup="Carol and Mark live here")
-my_map
+  addMarkers(lat= 27.9878, lng= 86.9250, 
+             popup="Mt. Everest - Highest Point on Earth")
 ```
 
+# Mt Everest - The Highest Point on Earth
+## Map created on April 21, 2018 with Leaflet
+
+```{r Show_map}
+my_map
+```
