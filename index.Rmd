@@ -1,0 +1,20 @@
+---
+title: "DDP_Map_Test"
+author: "Mark De La Mater"
+date: "April 20, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Main_Body}
+library(leaflet)
+my_map <- leaflet() %>%
+  addTiles() %>%
+  addMarkers(lat=38.572385, lng=-121.441322, 
+             popup="Carol and Mark live here")
+my_map
+```
+
