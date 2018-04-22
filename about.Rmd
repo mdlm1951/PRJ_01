@@ -3,4 +3,4 @@ title: "About My Website"
 output: html_document
 ---
 
-More info about the site
+This website was created as a space to publish my projects for Coursera / John Hopkins Developing Data Products course.
